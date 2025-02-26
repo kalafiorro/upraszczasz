@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:type="TaskPaneApp"
+    Version="1.0"
+    Id="outlook-addin-simplifier"
+    Name="Email Simplifier"
+    Description="Uprość swoje e-maile i dodaj język korzyści.">
+    <Host Name="Outlook" />
+    <DefaultSettings>
+        <SourceLocation DefaultValue="https://yourdomain.com/taskpane.html" />
+    </DefaultSettings>
+    <Permissions>ReadWriteItem</Permissions>
+</OfficeApp>
